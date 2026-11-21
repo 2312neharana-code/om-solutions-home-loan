@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ICICI Bank Home Loan Assistance in Bangalore | Om Solutions</title>
+<meta name="description" content="ICICI Bank Home Loan assistance in Bangalore through Om Solutions. Check eligibility, documents, EMI and application process.">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap');
+
+:root{
+  --ink:#101828;
+  --navy:#081c33;
+  --navy2:#0d2d4d;
+  --blue:#075da8;
+  --blue2:#1679ce;
+  --red:#e30613;
+  --orange:#f58220;
+  --green:#11845b;
+  --bg:#f6f8fb;
+  --soft:#edf5fc;
+  --muted:#667085;
+  --line:#e4e9ef;
+  --white:#fff;
+  --shadow:0 24px 70px rgba(8,28,51,.12);
+  --shadow-sm:0 10px 30px rgba(8,28,51,.07);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:"DM Sans",Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.6}
+h1,h2,h3,.brand{font-family:"Manrope",Arial,sans-serif}
+a{text-decoration:none;color:inherit}
+.container{width:min(1180px,92%);margin:auto}
+.topbar{background:#061425;color:#dce8f4;font-size:12px}
+.topbar .container{min-height:38px;display:flex;justify-content:space-between;align-items:center}
+.topbar b{color:#fff}
+.nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.94);backdrop-filter:blur(14px);border-bottom:1px solid rgba(16,24,40,.08)}
+.nav .container{height:76px;display:flex;align-items:center;justify-content:space-between}
+.brand{font-size:21px;font-weight:800;letter-spacing:-.6px;color:var(--navy)}
+.brand span{color:var(--red)}
+.nav-links{display:flex;align-items:center;gap:27px;font-size:13px;font-weight:700;color:#344054}
+.nav-links a:hover{color:var(--blue)}
+.nav-cta{background:var(--blue);color:#fff!important;padding:12px 18px;border-radius:8px;box-shadow:0 7px 18px rgba(7,93,168,.18)}
+.hero{position:relative;overflow:hidden;background:
+ radial-gradient(circle at 86% 18%,rgba(22,121,206,.13),transparent 29%),
+ linear-gradient(135deg,#f9fbfd 0%,#eef6fd 52%,#fff 100%);
+ padding:72px 0 78px}
+.hero:after{content:"";position:absolute;width:430px;height:430px;border:1px solid rgba(7,93,168,.08);border-radius:50%;right:-170px;bottom:-230px}
+.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.04fr .96fr;gap:70px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:9px;border:1px solid #d8e7f5;background:#fff;color:var(--blue);padding:8px 13px;border-radius:999px;font-size:11px;font-weight:800;text-transform:uppercase;letter-spacing:.8px;box-shadow:0 6px 20px rgba(7,93,168,.06)}
+.eyebrow i{width:7px;height:7px;background:#20a36a;border-radius:50%;display:inline-block}
+h1{font-size:clamp(42px,5.2vw,66px);line-height:1.03;letter-spacing:-2.7px;color:var(--navy);margin:19px 0 17px}
+h1 span{color:var(--blue)}
+.hero-sub{font-size:17px;line-height:1.75;color:#526174;max-width:660px}
+.hero-points{display:flex;gap:9px;flex-wrap:wrap;margin:25px 0 28px}
+.pill{display:flex;align-items:center;gap:7px;border:1px solid #dfe7ef;background:rgba(255,255,255,.8);padding:8px 11px;border-radius:7px;font-size:12px;font-weight:700;color:#344054}
+.pill b{color:#16864a}
+.hero-actions{display:flex;align-items:center;gap:13px;flex-wrap:wrap}
+.btn{display:inline-flex;align-items:center;justify-content:center;border:0;cursor:pointer;font-weight:800;padding:14px 21px;border-radius:8px;font-size:13px;transition:.2s}
+.btn-primary{background:var(--blue);color:#fff;box-shadow:0 11px 25px rgba(7,93,168,.22)}
+.btn-primary:hover{transform:translateY(-1px);background:#064f8f}
+.btn-outline{border:1px solid #cfd8e3;color:var(--navy);background:#fff}
+.hero-note{font-size:11px;color:#7b8796;margin-top:15px}
+.form-card{background:#fff;border:1px solid #dce4ec;border-radius:18px;padding:29px;box-shadow:var(--shadow);position:relative}
+.form-card:before{content:"";height:4px;position:absolute;left:0;right:0;top:0;background:linear-gradient(90deg,var(--red),var(--orange));border-radius:18px 18px 0 0}
+.form-card h2{font-size:24px;letter-spacing:-.7px;color:var(--navy);margin-top:3px}
+.form-card .small{font-size:12px;color:var(--muted);margin:5px 0 19px}
+.form-grid{display:grid;grid-template-columns:1fr 1fr;gap:0 11px}
+.field{margin-bottom:12px}
+.field.full{grid-column:1/-1}
+.field label{display:block;font-size:10px;letter-spacing:.5px;font-weight:800;color:#475467;margin-bottom:5px}
+.field input,.field select{width:100%;height:45px;border:1px solid #d5dde7;border-radius:7px;padding:0 11px;font:500 13px "DM Sans",sans-serif;outline:none;background:#fff;color:#172b42}
+.field input:focus,.field select:focus{border-color:var(--blue);box-shadow:0 0 0 3px rgba(7,93,168,.08)}
+.form-card .btn{width:100%;height:48px}
+.consent{font-size:9.5px;color:#8a95a3;margin-top:9px;line-height:1.5}
+.form-trust{display:flex;gap:12px;align-items:center;border-top:1px solid var(--line);margin-top:17px;padding-top:14px;color:#667085;font-size:10px}
+.form-trust strong{color:#344054}
+.trust{background:#fff;border-bottom:1px solid var(--line);border-top:1px solid var(--line)}
+.trust-grid{display:grid;grid-template-columns:repeat(4,1fr)}
+.trust-item{display:flex;align-items:center;justify-content:center;gap:10px;padding:19px 10px;border-right:1px solid var(--line);font-size:12px;font-weight:800;color:#344054}
+.trust-item:last-child{border-right:0}
+.trust-icon{width:34px;height:34px;border-radius:9px;background:#edf6ff;color:var(--blue);display:grid;place-items:center;font-weight:900}
+section{padding:86px 0}
+.section-head{max-width:760px;margin:0 auto 46px}
+.section-head.center{text-align:center}
+.section-head .tag{color:var(--blue);font-size:10px;font-weight:900;text-transform:uppercase;letter-spacing:1.5px}
+.section-head h2{font-size:39px;line-height:1.13;color:var(--navy);margin:8px 0 13px;letter-spacing:-1.5px}
+.section-head p{color:var(--muted);font-size:14px;line-height:1.75}
+.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:17px}
+.card{background:#fff;border:1px solid var(--line);border-radius:13px;padding:25px;box-shadow:var(--shadow-sm);transition:.2s}
+.card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.icon{width:43px;height:43px;border-radius:11px;background:#edf5fc;color:var(--blue);display:grid;place-items:center;font-size:19px;margin-bottom:17px}
+.card h3{font-size:16px;color:var(--navy);margin-bottom:7px}
+.card p{font-size:12px;line-height:1.7;color:var(--muted)}
+.light{background:var(--bg)}
+.loan-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.loan-card{background:#fff;border:1px solid var(--line);border-radius:13px;padding:27px 23px;position:relative;overflow:hidden}
+.loan-card:after{content:"";position:absolute;width:70px;height:70px;border:1px solid #e6eef6;border-radius:50%;right:-28px;bottom:-28px}
+.loan-card .num{font-size:10px;letter-spacing:1px;font-weight:900;color:var(--orange);margin-bottom:14px}
+.loan-card h3{font-size:17px;color:var(--navy);margin-bottom:7px}
+.loan-card p{font-size:12px;color:var(--muted);line-height:1.7}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:75px;align-items:center}
+.align-left{margin:0;text-align:left}
+.list{display:grid;gap:11px;margin-top:22px}
+.list li{list-style:none;padding-left:27px;position:relative;color:#526174;font-size:13px}
+.list li:before{content:"✓";position:absolute;left:0;top:0;color:#16864a;font-weight:900}
+.profile{display:grid;grid-template-columns:1fr 1fr;gap:15px}
+.profile-box{border:1px solid var(--line);border-radius:14px;padding:24px;background:#fff;box-shadow:var(--shadow-sm)}
+.profile-box h3{font-size:17px;color:var(--navy);margin-bottom:10px}
+.profile-box li{list-style:none;margin:7px 0;color:var(--muted);font-size:12px;padding-left:17px;position:relative}
+.profile-box li:before{content:"•";position:absolute;left:0;color:var(--blue)}
+.document-panel{background:#fff;border:1px solid var(--line);border-radius:18px;padding:31px;box-shadow:var(--shadow-sm)}
+.doc-title{font-size:10px;color:var(--blue);font-weight:900;text-transform:uppercase;letter-spacing:1.4px}
+.document-panel h2{font-size:30px;color:var(--navy);line-height:1.2;margin:8px 0 12px}
+.steps{display:grid;grid-template-columns:repeat(6,1fr);gap:10px}
+.step{text-align:center}
+.step-no{width:43px;height:43px;border-radius:50%;background:var(--navy);color:#fff;font-weight:900;display:grid;place-items:center;margin:0 auto 13px;box-shadow:0 8px 20px rgba(8,28,51,.15)}
+.step h3{font-size:13px;color:var(--navy);margin-bottom:4px}
+.step p{font-size:10.5px;color:var(--muted);line-height:1.55}
+.emi-wrap{display:grid;grid-template-columns:1fr .72fr;gap:19px}
+.emi-card,.result-card{border:1px solid var(--line);border-radius:16px;padding:30px;background:#fff;box-shadow:var(--shadow-sm)}
+.slider-row{margin:19px 0}
+.slider-row label{display:flex;justify-content:space-between;font-size:12px;font-weight:800;margin-bottom:8px;color:#344054}
+.slider-row input{width:100%;accent-color:var(--blue)}
+.result-card{background:linear-gradient(145deg,#081c33,#123b61);color:#fff;position:relative;overflow:hidden}
+.result-card:after{content:"";position:absolute;width:180px;height:180px;border:1px solid rgba(255,255,255,.09);border-radius:50%;right:-80px;top:-65px}
+.result-label{font-size:11px;color:#b8c8da}
+.emi{font-size:43px;font-weight:900;line-height:1.1;margin:8px 0 23px;letter-spacing:-1.5px}
+.result-line{display:flex;justify-content:space-between;border-top:1px solid rgba(255,255,255,.13);padding:11px 0;font-size:11px;color:#c4d2df}
+.result-line strong{color:#fff}
+.faq{max-width:860px;margin:auto;border-top:1px solid var(--line)}
+details{border-bottom:1px solid var(--line);padding:18px 3px}
+summary{cursor:pointer;font-weight:800;font-size:13px;color:var(--navy);list-style:none}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";float:right;color:var(--blue);font-size:18px}
+details[open] summary:after{content:"−"}
+details p{font-size:12px;color:var(--muted);padding:11px 35px 0 0;line-height:1.7}
+.local{background:linear-gradient(135deg,#071a2e,#0b3b67);color:#fff}
+.local .section-head h2{color:#fff}
+.local .section-head p{color:#bfd0df}
+.contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.contact{border:1px solid rgba(255,255,255,.13);background:rgba(255,255,255,.06);border-radius:12px;padding:21px}
+.contact span{display:block;font-size:9px;color:#9db4c9;text-transform:uppercase;letter-spacing:1.1px;margin-bottom:5px}
+.contact strong{font-size:14px;color:#fff}
+.final-cta{background:#eef5fb;text-align:center;padding:75px 0}
+.final-cta h2{font-size:40px;line-height:1.15;color:var(--navy);letter-spacing:-1.4px;margin-bottom:10px}
+.final-cta p{color:var(--muted);max-width:650px;margin:0 auto 23px;font-size:14px}
+footer{background:#061321;color:#9fb0c2;padding:30px 0 82px;font-size:10px}
+footer strong{color:#fff}
+footer p{margin-top:7px;line-height:1.65}
+.mobile-cta{display:none}
+@media(max-width:950px){
+  .nav-links{display:none}.hero-grid,.two-col,.emi-wrap{grid-template-columns:1fr}
+  .cards,.loan-grid{grid-template-columns:1fr 1fr}.steps{grid-template-columns:repeat(3,1fr)}
+  .trust-grid{grid-template-columns:1fr 1fr}.contact-grid{grid-template-columns:1fr}
+  .hero-grid{gap:40px}.two-col{gap:35px}
+}
+@media(max-width:600px){
+  .topbar .container{justify-content:center;text-align:center}.topbar .container span:first-child{display:none}
+  .nav .container{height:66px}.nav-cta{padding:9px 12px;font-size:11px}
+  .hero{padding:48px 0 54px}h1{font-size:42px;letter-spacing:-2px}
+  .hero-sub{font-size:15px}.hero-points{gap:7px}.pill{font-size:11px}
+  .form-grid,.cards,.loan-grid,.profile{grid-template-columns:1fr}
+  .field.full{grid-column:auto}
+  section{padding:58px 0}.section-head h2{font-size:31px}
+  .steps{grid-template-columns:1fr 1fr}.trust-grid{grid-template-columns:1fr 1fr}
+  .trust-item{border-bottom:1px solid var(--line);border-right:1px solid var(--line);font-size:10px}
+  .emi{font-size:37px}
+  .mobile-cta{display:block;position:fixed;bottom:0;left:0;right:0;background:#fff;padding:9px;z-index:200;box-shadow:0 -7px 22px rgba(0,0,0,.13)}
+  .mobile-cta a{display:block;text-align:center;background:var(--blue);color:#fff;padding:12px;border-radius:7px;font-weight:800;font-size:13px}
+  body{padding-bottom:57px}
+}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="container">
+    <span>Home Loan Assistance • Bangalore</span>
+    <span>📞 +91 95355 73760 &nbsp; | &nbsp; ✉ mayurablr@gmail.com</span>
+  </div>
+</div>
+
+<nav class="nav">
+  <div class="container">
+    <a class="brand" href="#">OM <span>SOLUTIONS</span></a>
+    <div class="nav-links">
+      <a href="#benefits">Benefits</a>
+      <a href="#eligibility">Eligibility</a>
+      <a href="#process">Process</a>
+      <a href="#faq">FAQs</a>
+      <a class="nav-cta" href="#apply">Check Eligibility</a>
+    </div>
+    <a class="nav-cta" href="#apply">Apply</a>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="container hero-grid">
+    <div>
+      <div class="eyebrow"><i></i> Home Loan Assistance • Bangalore</div>
+      <h1>Make Your <span>Dream Home</span> a Reality</h1>
+      <p class="hero-sub">Get professional assistance for your ICICI Bank Home Loan enquiry — from eligibility and documentation to the application process.</p>
+      <div class="hero-points">
+        <div class="pill"><b>✓</b> Home Purchase</div>
+        <div class="pill"><b>✓</b> Home Construction</div>
+        <div class="pill"><b>✓</b> Property Purchase</div>
+        <div class="pill"><b>✓</b> Balance Transfer</div>
+      </div>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#apply">Check My Eligibility →</a>
+        <a class="btn btn-outline" href="tel:+919535573760">Call Now</a>
+      </div>
+    </div>
+
+    <div class="form-card" id="apply">
+      <h2>Check Your Home Loan Eligibility</h2>
+      <p class="small">Share your details and our team will contact you regarding your enquiry.</p>
+      <form id="leadForm">
+        <div class="form-grid">
+          <div class="field"><label>FULL NAME *</label><input name="name" required placeholder="Enter your full name"></div>
+          <div class="field"><label>MOBILE NUMBER *</label><input name="phone" type="tel" required pattern="[0-9]{10}" maxlength="10" placeholder="10-digit number"></div>
+          <div class="field"><label>EMAIL ADDRESS</label><input name="email" type="email" placeholder="you@example.com"></div>
+          <div class="field"><label>CITY / LOCATION *</label><input name="city" required value="Bangalore"></div>
+          <div class="field"><label>EMPLOYMENT TYPE *</label><select name="employment" required><option value="">Select</option><option>Salaried</option><option>Self Employed</option></select></div>
+          <div class="field"><label>LOAN AMOUNT *</label><select name="amount" required><option value="">Select amount</option><option>Below ₹25 Lakh</option><option>₹25–50 Lakh</option><option>₹50 Lakh–₹1 Crore</option><option>Above ₹1 Crore</option></select></div>
+        </div>
+        <button class="btn btn-primary" type="submit">Check My Eligibility →</button>
+        <p class="consent">By submitting, you agree to be contacted by Om Solutions regarding your home loan enquiry through call, SMS, WhatsApp or email.</p>
+        <p id="formMsg" class="consent"></p>
+        <div class="form-trust"><span>🔒 <strong>Your details are used for enquiry assistance.</strong></span></div>
+      </form>
+    </div>
+  </div>
+</header>
+
+<div class="trust">
+  <div class="container trust-grid">
+    <div class="trust-item"><span class="trust-icon">✓</span>Eligibility Assistance</div>
+    <div class="trust-item"><span class="trust-icon">▤</span>Documentation Guidance</div>
+    <div class="trust-item"><span class="trust-icon">↗</span>Application Support</div>
+    <div class="trust-item"><span class="trust-icon">⌖</span>Bangalore Enquiries</div>
+  </div>
+</div>
+
+<section id="benefits">
+  <div class="container">
+    <div class="section-head">
+      <div class="tag">Why Consider Home Loan Assistance?</div>
+      <h2>A Simpler Way to Plan Your Home Loan</h2>
+      <p>Get assistance in understanding eligibility, documents and the application journey before proceeding with your home loan enquiry.</p>
+    </div>
+    <div class="cards">
+      <div class="card"><div class="icon">✓</div><h3>Flexible Repayment</h3><p>Explore repayment options and tenure based on your eligible profile.</p></div>
+      <div class="card"><div class="icon">↗</div><h3>Convenient Process</h3><p>Get guidance on the applicable application and document submission process.</p></div>
+      <div class="card"><div class="icon">▤</div><h3>Documentation Guidance</h3><p>Understand the KYC, income and property documents generally required.</p></div>
+      <div class="card"><div class="icon">◉</div><h3>Expert Assistance</h3><p>Get support in understanding the next steps for your home loan enquiry.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="light">
+  <div class="container">
+    <div class="section-head">
+      <div class="tag">Home Loan Options</div>
+      <h2>Finance Your Property Plans</h2>
+      <p>Explore the home-loan requirement that matches your current property plan.</p>
+    </div>
+    <div class="loan-grid">
+      <div class="loan-card"><div class="num">01 / HOME PURCHASE</div><h3>Buy Your Home</h3><p>Get assistance for eligible residential property purchase requirements.</p></div>
+      <div class="loan-card"><div class="num">02 / CONSTRUCTION</div><h3>Home Construction</h3><p>Explore financing for construction of your residential property, subject to eligibility.</p></div>
+      <div class="loan-card"><div class="num">03 / PROPERTY</div><h3>Existing Property</h3><p>Get guidance for financing an eligible existing residential property.</p></div>
+      <div class="loan-card"><div class="num">04 / TRANSFER</div><h3>Balance Transfer</h3><p>Explore balance-transfer options for an existing eligible home loan.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="eligibility">
+  <div class="container two-col">
+    <div>
+      <div class="section-head" style="text-align:left;margin:0">
+        <div class="tag">Eligibility</div>
+        <h2>Who Can Apply?</h2>
+        <p>Home loan eligibility depends on multiple factors including income, age, existing liabilities, credit profile and property details.</p>
+      </div>
+      <ul class="list">
+        <li>Applicant's age and repayment capacity</li>
+        <li>Monthly / annual income and employment profile</li>
+        <li>Existing loans and financial obligations</li>
+        <li>Credit history and overall profile</li>
+        <li>Property value and applicable property criteria</li>
+      </ul>
+    </div>
+    <div class="profile">
+      <div class="profile-box"><h3>👔 Salaried</h3><ul><li>Stable employment and regular income</li><li>Salary slips / applicable income proof</li><li>Bank statements and KYC documents</li></ul></div>
+      <div class="profile-box"><h3>💼 Self Employed</h3><ul><li>Stable business / income profile</li><li>ITR and applicable financial documents</li><li>Bank statements and KYC documents</li></ul></div>
+    </div>
+  </div>
+</section>
+
+<section class="light">
+  <div class="container two-col">
+    <div class="profile-box">
+      <div class="tag">Documents</div>
+      <h2 style="color:var(--navy);margin:7px 0 14px">Keep Your Documents Ready</h2>
+      <ul class="list">
+        <li>PAN Card and applicable KYC / identity proof</li>
+        <li>Address proof</li>
+        <li>Latest salary slips for salaried applicants</li>
+        <li>Form 16, where applicable</li>
+        <li>ITR / financial documents for self-employed applicants</li>
+        <li>Recent bank statements</li>
+        <li>Relevant property documents</li>
+      </ul>
+    </div>
+    <div>
+      <div class="section-head" style="text-align:left;margin:0">
+        <div class="tag">Important</div>
+        <h2>Document Requirements Can Vary</h2>
+        <p>Exact documents depend on the applicant profile, property and lender requirements. The final list is confirmed during the application process.</p>
+      </div>
+      <a class="btn btn-primary" href="#apply">Check My Eligibility →</a>
+    </div>
+  </div>
+</section>
+
+<section id="process">
+  <div class="container">
+    <div class="section-head">
+      <div class="tag">How It Works</div>
+      <h2>Your Home Loan Journey, Simplified</h2>
+      <p>From initial enquiry to disbursement, the process involves eligibility assessment, documentation and lender verification.</p>
+    </div>
+    <div class="steps">
+      <div class="step"><div class="step-no">1</div><h3>Enquiry</h3><p>Share your basic details.</p></div>
+      <div class="step"><div class="step-no">2</div><h3>Eligibility</h3><p>Profile and requirement check.</p></div>
+      <div class="step"><div class="step-no">3</div><h3>Documents</h3><p>Submit applicable documents.</p></div>
+      <div class="step"><div class="step-no">4</div><h3>Verification</h3><p>Lender reviews the application.</p></div>
+      <div class="step"><div class="step-no">5</div><h3>Sanction</h3><p>Approval subject to eligibility.</p></div>
+      <div class="step"><div class="step-no">6</div><h3>Disbursement</h3><p>Funds released as per terms.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="light">
+  <div class="container">
+    <div class="section-head">
+      <div class="tag">EMI Calculator</div>
+      <h2>Calculate Your Estimated EMI</h2>
+      <p>Use this calculator for an indicative monthly EMI. Actual terms may differ.</p>
+    </div>
+    <div class="emi-wrap">
+      <div class="emi-card">
+        <div class="slider-row"><label><span>Loan Amount</span><span id="amtLabel">₹25,00,000</span></label><input id="amountSlider" type="range" min="500000" max="20000000" step="100000" value="2500000"></div>
+        <div class="slider-row"><label><span>Interest Rate</span><span id="rateLabel">8.50%</span></label><input id="rateSlider" type="range" min="6" max="15" step=".05" value="8.5"></div>
+        <div class="slider-row"><label><span>Tenure</span><span id="tenureLabel">20 Years</span></label><input id="tenureSlider" type="range" min="5" max="30" step="1" value="20"></div>
+        <a class="btn btn-primary" href="#apply">Check Actual Eligibility</a>
+      </div>
+      <div class="result-card">
+        <span class="result-label">Estimated Monthly EMI</span>
+        <div class="emi" id="emiValue">₹21,696</div>
+        <div class="result-line"><span>Loan Amount</span><strong id="resAmount">₹25,00,000</strong></div>
+        <div class="result-line"><span>Interest Rate</span><strong id="resRate">8.50%</strong></div>
+        <div class="result-line"><span>Tenure</span><strong id="resTenure">20 Years</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="faq">
+  <div class="container">
+    <div class="section-head">
+      <div class="tag">FAQs</div>
+      <h2>Frequently Asked Questions</h2>
+    </div>
+    <div class="faq">
+      <details><summary>What is the minimum income required for a home loan?</summary><p>Income requirements depend on the applicant's profile, existing obligations, credit history and applicable lender eligibility criteria.</p></details>
+      <details><summary>Can self-employed individuals apply?</summary><p>Eligible self-employed applicants can apply subject to income, documentation, credit and lender criteria.</p></details>
+      <details><summary>Can I transfer my existing home loan?</summary><p>Eligible borrowers may explore home-loan balance-transfer options subject to applicable lender terms and eligibility.</p></details>
+      <details><summary>How much home loan can I get?</summary><p>The eligible amount depends on income, age, existing liabilities, credit profile, property value and repayment capacity.</p></details>
+      <details><summary>What documents are required?</summary><p>KYC, income and property-related documents are generally required. Exact requirements can vary by applicant and property.</p></details>
+      <details><summary>Does submitting this form guarantee approval?</summary><p>No. Submission of an enquiry does not guarantee approval or disbursement. Final decisions are subject to lender verification and applicable terms.</p></details>
+    </div>
+  </div>
+</section>
+
+<section class="local">
+  <div class="container">
+    <div class="section-head">
+      <div class="tag" style="color:#8fc7ff">Bangalore</div>
+      <h2>Looking for a Home Loan in Bangalore?</h2>
+      <p>Get assistance based on your financial profile and property requirement.</p>
+    </div>
+    <div class="contact-grid">
+      <div class="contact"><span>CALL</span><strong>+91 95355 73760</strong></div>
+      <div class="contact"><span>EMAIL</span><strong>mayurablr@gmail.com</strong></div>
+      <div class="contact"><span>LOCATION</span><strong>Bangalore, Karnataka</strong></div>
+    </div>
+  </div>
+</section>
+
+<section class="final-cta">
+  <div class="container">
+    <h2>Ready to Take the Next Step?</h2>
+    <p>Share your basic details and get assistance regarding your home loan enquiry.</p>
+    <a class="btn btn-primary" href="#apply">Check Home Loan Eligibility →</a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <strong>Om Solutions (Mayur T)</strong>
+    <p>Home Loan Assistance • Bangalore &nbsp; | &nbsp; +91 95355 73760 &nbsp; | &nbsp; mayurablr@gmail.com</p>
+    <p><strong>Disclaimer:</strong> Om Solutions provides assistance regarding home-loan enquiries/application processes. It is not represented as ICICI Bank unless separately authorised. Loan approval, interest rate, loan amount, tenure, fees and other terms are subject to the lender's eligibility criteria, verification, applicable policies and terms & conditions. Submission of an enquiry does not guarantee approval or disbursement.</p>
+  </div>
+</footer>
+
+<div class="mobile-cta"><a href="#apply">Check Home Loan Eligibility</a></div>
+
+<script>
+const fmt = n => "₹" + Math.round(n).toLocaleString("en-IN");
+const amount = document.getElementById("amountSlider");
+const rate = document.getElementById("rateSlider");
+const tenure = document.getElementById("tenureSlider");
+
+function calc(){
+  const P=Number(amount.value), annual=Number(rate.value), years=Number(tenure.value);
+  const r=annual/12/100, n=years*12;
+  const emi = r===0 ? P/n : P*r*Math.pow(1+r,n)/(Math.pow(1+r,n)-1);
+  document.getElementById("amtLabel").textContent=fmt(P);
+  document.getElementById("rateLabel").textContent=annual.toFixed(2)+"%";
+  document.getElementById("tenureLabel").textContent=years+" Years";
+  document.getElementById("emiValue").textContent=fmt(emi);
+  document.getElementById("resAmount").textContent=fmt(P);
+  document.getElementById("resRate").textContent=annual.toFixed(2)+"%";
+  document.getElementById("resTenure").textContent=years+" Years";
+}
+[amount,rate,tenure].forEach(x=>x.addEventListener("input",calc)); calc();
+
+document.getElementById("leadForm").addEventListener("submit",function(e){
+  e.preventDefault();
+  const msg=document.getElementById("formMsg");
+  msg.style.color="#16864a";
+  msg.textContent="Thank you. Your enquiry details are ready to be connected to the lead system.";
+});
+</script>
+</body>
+</html>
